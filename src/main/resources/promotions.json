@@ -1,0 +1,21 @@
+{
+  "single_skus_offer": {
+    "priority": 2,
+    "skus": [
+      {
+        "3A": 130
+      },
+      {
+        "2B": 45
+      }
+    ]
+  },
+  "multiple_skus_offer": {
+    "priority": 1,
+    "skus": [
+      {
+        "C+D": 30
+      }
+    ]
+  }
+}
