@@ -16,10 +16,10 @@ public class Promotion_EngineTest {
 	@Test
 	public void testScenario1() throws IOException {
 
-		String input = "3";
-		InputStream in = new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
+//		String input = "3";
+//		InputStream in = new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
 //		Add the test inputs and try
-		promotion_engine.main(new String[0]);
+//		promotion_engine.main(new String[0]);
 
 	};
 }
