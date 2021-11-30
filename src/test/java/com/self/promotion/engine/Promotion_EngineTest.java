@@ -3,7 +3,10 @@ package com.self.promotion.engine;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 @Slf4j
 public class Promotion_EngineTest {
@@ -13,7 +16,10 @@ public class Promotion_EngineTest {
 	@Test
 	public void testScenario1() throws IOException {
 
-		//Add the test inputs and try
-//		promotion_engine.main(new String[0]);
+		String input = "3";
+		InputStream in = new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
+//		Add the test inputs and try
+		promotion_engine.main(new String[0]);
+
 	};
 }

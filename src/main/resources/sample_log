@@ -3,7 +3,7 @@ Enter the number of kind of items to be purchased (like if [A, B, C], then enter
 Enter the items with quantity, like : 3A
 5A
 5B
-C
+1C
 5A5BC11:12:32.823 [main] INFO org.reflections.Reflections - Reflections took 61 ms to scan 1 urls, producing 1 keys and 2 values
 11:12:32.856 [main] INFO com.self.promotion.engine.Promotion_Engine - The promotions available are : [com.self.promotion.engine.promotion.PromotionMultipleImpl@6325a3ee, com.self.promotion.engine.promotion.PromotionSingleImpl@1d16f93d]
 11:12:32.856 [main] INFO com.self.promotion.engine.service.ApplyOffers - Sorting promotions on the basis of priority!
