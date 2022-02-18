@@ -1,0 +1,17 @@
+Enter the number of kind of items to be purchased (like if [A, B, C], then enter 3)!
+3
+Enter the items with quantity, like : 3A
+5A
+5B
+1C
+5A5BC11:12:32.823 [main] INFO org.reflections.Reflections - Reflections took 61 ms to scan 1 urls, producing 1 keys and 2 values
+11:12:32.856 [main] INFO com.self.promotion.engine.Promotion_Engine - The promotions available are : [com.self.promotion.engine.promotion.PromotionMultipleImpl@6325a3ee, com.self.promotion.engine.promotion.PromotionSingleImpl@1d16f93d]
+11:12:32.856 [main] INFO com.self.promotion.engine.service.ApplyOffers - Sorting promotions on the basis of priority!
+11:12:32.856 [main] INFO com.self.promotion.engine.service.ApplyOffers - Iterating over every sku and generating the price after all offers applied!
+11:12:32.856 [main] INFO com.self.promotion.engine.promotion.PromotionSingleImpl - Offer single_skus_offer has been applied to SKU A
+11:12:32.856 [main] INFO com.self.promotion.engine.model.Sku - The price for A after offers is 230.0
+11:12:32.864 [main] INFO com.self.promotion.engine.promotion.PromotionSingleImpl - Offer single_skus_offer has been applied to SKU B
+11:12:32.864 [main] INFO com.self.promotion.engine.model.Sku - The price for B after offers is 120.0
+11:12:32.864 [main] INFO com.self.promotion.engine.service.ApplyOffers - No offers could be applied to C
+11:12:32.864 [main] INFO com.self.promotion.engine.model.Sku - The price for C after offers is 20.0
+11:12:32.864 [main] INFO com.self.promotion.engine.Promotion_Engine - The final Price is : 370.0
